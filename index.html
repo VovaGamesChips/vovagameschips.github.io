@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<script type="text/javascript">
+var userLang = window.navigator.language || navigator.userLanguage
+	console.log(userLang);
+	if (userLang.match(/^ru/)) {       
+		window.location = "ru/index.html";
+	}
+	else 
+	if (userLang.match(/^en/)) {
+		window.location = "en/index.html";
+}
+	else
+		window.location = "en/index.html";
+</script>

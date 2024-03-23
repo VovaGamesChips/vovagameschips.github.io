@@ -1,0 +1,25 @@
+var html = [];
+html.push('<title>Вова Игры Chips</title>');
+html.push('<link rel="shortcut icon" type="image/png" href="../media/favicon.png">');
+html.push('<link type="image/x-icon" rel="shortcut icon" href="../media/favicon.ico">');
+// Начало
+html.push('<head>'); 
+html.push('<center>');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+html.push('a');
+var target = document.getElementById('design');
+target.innerHTML = html.join('');
+target.style.display = 'block';

@@ -1,0 +1,72 @@
+.background {
+	background: linear-gradient(#E0FFFF, #FFFFFF) fixed;
+}
+.logo {
+	font-family: mongolian-baiti;
+	color: lime;
+	text-shadow: green 1px 1px 1px;
+}
+   
+.chips {
+	color: yellow;
+	text-shadow: goldenrod 1px 1px 1px;
+}
+.footer {
+	float: left;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:50px;
+	width:100%;
+}
+   
+a { 
+    text-decoration: none /* Для того, чтобы подчеркивание ссылок не было видно */
+}
+   
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	background: linear-gradient(#00FFFF, #0094FF) fixed;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #00D900;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.right {
+    float: right;
+}
+a, a:visited {
+  color: inherit;
+}
+
+.radius {
+	background: #E0E0E0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 15px; /* Поля вокруг текста */
+    margin-bottom: 10px; /* Отступ снизу */
+}
